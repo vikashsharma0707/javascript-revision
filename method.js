@@ -226,3 +226,9 @@ document.write(fll+"<br>");
 
 
 
+// foreach loop
+
+let each = [1,2,3,4,5];
+each.forEach(function(value,index){
+   document.write(index, ":",value,"<br>")
+})
